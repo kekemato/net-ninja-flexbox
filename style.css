@@ -18,25 +18,35 @@ body{
     background: #fff;
     height: 500px;
     flex-wrap: wrap;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
+    flex-flow: row;
+    justify-content: space-between;
 
 }
 
 .box{
-    width: 100px;
+    height: 100px;
     flex: 0 0 100px;
+    border: 1px solid black;
+    text-align: center;
 }
 
 .one{
-    background-color: blue;
+    background-color: #aaa;
 }
 
 .two{
-    background-color: green;
+    background-color: #aaa;
 }
 
 .three{
-    background-color: red;
+    background-color: #aaa;
 }
+
+.four{
+    background-color: #aaa;
+}
+
+.one{ order: 4;}
+.two{ order: 3;}
+.three{ order: 2;}
+.four{ order: 1;}
