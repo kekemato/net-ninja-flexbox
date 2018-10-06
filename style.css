@@ -16,28 +16,27 @@ body{
 .flex-container{
     display: flex;
     background: #fff;
-    height: 700px;
+    height: 500px;
     flex-wrap: wrap;
-    flex-flow: column-reverse;
-    justify-content: flex-end;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .box{
-    height: 100px;
-    flex-grow: 0 0 100px;
+    width: 100px;
+    flex: 0 0 100px;
 }
 
 .one{
     background-color: blue;
-    flex: 0 1 100px;
 }
 
 .two{
     background-color: green;
-    flex-basis: 0 1 200px;
 }
 
 .three{
     background-color: red;
-    flex-basis: 0 1 300px;
 }
