@@ -25,12 +25,15 @@ body{
 
 .one{
     background-color: blue;
+    flex-grow: 3;
 }
 
 .two{
     background-color: green;
+    flex-grow: 3;
 }
 
 .three{
     background-color: red;
+    flex-grow: 2;
 }
