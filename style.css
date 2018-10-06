@@ -21,20 +21,20 @@ body{
 
 .box{
     height: 100px;
-    min-width: 200x;
+    flex-grow: 1;
 }
 
 .one{
     background-color: blue;
-    flex-grow: 1;
+    flex: 1 1 100px;
 }
 
 .two{
     background-color: green;
-    flex-grow: 1;
+    flex-basis: 200px;
 }
 
 .three{
     background-color: red;
-    flex-grow: 1;
+    flex-basis: 300px;
 }
